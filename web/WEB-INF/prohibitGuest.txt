@@ -1,0 +1,21 @@
+Logout
+Search
+View Detail
+Like
+Dislike
+Post Article
+Delete Article
+Comment
+Delete Comment
+Confirm Delete
+Notifications
+home.jsp
+article-detail.jsp
+post-article.html
+post-article.jsp
+notification.jsp
+Send Activation
+Activate Account
+account-created.html
+activate-account.jsp
+activate-require.jsp

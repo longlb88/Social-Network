@@ -1,0 +1,25 @@
+html, body{
+    height: 100vh;
+}
+
+.navbar-brand{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-size: 15px;
+}
+
+.welcome-user{
+    font-weight: bold;
+    color: white;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.bg-custom{
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 255),  rgb(214, 214, 255) ,rgb(255, 255, 255));
+}

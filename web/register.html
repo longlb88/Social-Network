@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+		<title>Register Page</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/customize.css">
+    </head>
+    <body>
+		<div class="container-fluid h-100 bg-custom">
+			<div class="row h-100 justify-content-center align-items-center">
+				<div class="card p-5 col-10 col-md-8 col-lg-6">
+					<h1 class="text-center">Sign up</h1>
+					<form action="DispatchController" method="POST" class="form-group">
+						<label>Email</label>
+						<input type="text" name="txtEmail" value="" class="form-control" placeholder="example@gmail.com"/><br/>
+						
+						<label>Full name</label>
+						<input type="text" name="txtFullname" value="" class="form-control" placeholder="2-50 chars"/><br/>
+						
+						<label>Password</label>
+						<input type="password" name="txtPassword" value="" class="form-control" placeholder="6-30 chars"/><br/>
+						
+						<label>Confirm</label>
+						<input type="password" name="txtConfirm" value="" class="form-control"/><br/>
+						
+						<div class="text-center">
+							<input type="submit" value="Create Account" name="btAction" class="btn btn-primary" /> <br/>
+						</div>
+					</form>
+					Already have account? <a href="login.html">Sign in</a>
+				</div>
+			</div>
+		</div>
+	<script src="assets/js/bootstrap.min.js"></script>
+    </body>
+</html>

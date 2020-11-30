@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/J3LP0010_SocialNetwork">
+    <Resource name="DBCon" auth="Container" type="javax.sql.DataSource" 
+    driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+    url="jdbc:sqlserver://localhost:1433;databaseName=SocialNetwork"
+    username="sa" password="Long2ws0808" />
+</Context>
